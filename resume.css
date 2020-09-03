@@ -1,0 +1,416 @@
+nav{
+  position: fixed;
+}
+.nav-link{
+  color: #fff;
+}
+
+.goal{
+  height:400px;
+  margin: 100px 60px;
+  border-radius: 40px;
+  border: 5px solid #d92027;
+  width: 400px;
+  position: absolute;
+  background-color: #d92027;
+}
+
+.bicycle
+{
+  margin-left: 550px;;
+}
+
+/* #front-wheel,#back-wheel
+{
+  animation: wheel 2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes wheel{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+} */
+
+.goal{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.objective
+{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 60px;
+}
+
+.carousel-item{
+  margin-left:800px;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 10px solid orange;
+  background-color: gray;
+}
+
+#edu{
+  margin-bottom: 50px;
+}
+
+.education{
+  position: absolute;
+  margin-left: 20px;
+}
+
+.carousel{
+  margin-top: 90px;
+}
+
+.carousel-control-prev,.carousel-control-next{
+  background-color: darksalmon;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 5px solid darksalmon;
+}
+
+.carousel-control-prev{
+  margin-left: 747px;
+  margin-top: 120px;
+}
+
+.carousel-control-next{
+  margin-right: 110px;
+  margin-top: 120px;
+}
+
+.profile{
+  width: 100px;
+  height:100px;
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.profile-size1,.profile-size2,.profile-size3{
+  width: 60px;
+  height: 60px;
+}
+
+.profile-size1{
+  margin-left: 14px;
+  margin-top: 7px;
+}
+
+.profile-size2{
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+.profile-size3{
+  margin-left: 14px;
+  margin-top: 13px;
+}
+
+.titles{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 4px;;
+}
+
+.pre-school{
+  margin-left: 55px;
+}
+
+.school-size{
+  margin-left: 20px;
+}
+
+.college-size{
+  margin-left: 50px;
+}
+
+.skills{
+  background-color: #318fb5;
+  width: 100%;
+  height: 400px;
+}
+
+.skills{
+  margin-top: 70px;
+  padding-top:30px;
+}
+
+.skill-box{
+  background-color: #fff;
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid white;
+  box-shadow:inset 0 -14em 0 0.35em white;
+  margin-left: 40px;
+}
+
+.skill-box:focus{
+  outline: none;
+}
+
+#front-end{
+  background-color:  black;
+}
+
+#back-end{
+  background:green;
+}
+
+#database{
+  background-color:  orange;
+}
+
+.f1{
+  margin-bottom: 230px;
+  color: #fff;
+}
+
+.front-list{
+  margin-top: -170px;
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+body{
+  background: #ddd;
+}
+#wrapper {
+position: absolute;
+left: 17%;
+top: 210%;
+perspective: 1500px;
+}
+
+.rest1{
+  margin-left: 31%;
+}
+
+.rest2{
+  margin-left: 63%;
+}
+
+.box-area {
+position: relative;
+transform-style: preserve-3d;
+animation-name: rotate;
+animation-duration: 30s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+0% {
+transform: rotate3d(0, 0, 0, 0);
+}
+100% {
+transform: rotate3d(0, 1, 0, 360deg);
+;
+}
+}
+
+.box {
+position: absolute;
+width: 200px;
+height: 200px;
+border: 2px solid #262626;
+}
+
+#box-front {
+transform: translateX(-100px) translateY(-100px) translateZ(100px);
+background: rgba(255, 16, 107, 0.5);
+}
+
+#box-back {
+transform: translateX(-100px) translateY(-100px) translateZ(-100px);
+background: rgba(1, 251, 236, 0.5);
+}
+
+#box-right {
+transform: translateY(-100px) rotateY(90deg);
+background: rgba(4, 255, 116, 0.5);
+}
+
+#box-left {
+transform: translateY(-100px) translateX(-200px) rotateY(90deg);
+background: rgba(216, 255, 0, 0.5);
+}
+
+#box-top {
+transform: translateX(-100px) translateY(-200px) rotateX(90deg);
+background: rgba(0, 6, 246, 0.5);
+}
+
+#box-bottom {
+transform: translateX(-100px) rotateX(90deg);
+background: rgba(255, 30, 0, 0.5);
+}
+
+.box-area {
+transform: rotateX(90deg) rotateY(90deg);
+}
+
+.html-img{
+height:70px;
+width:70px;
+margin:60px 60px;
+}
+
+.box-level1{
+  margin-top:1000px;
+}
+
+.projects{
+  height: 400px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+#man{
+  animation: fade-in ease-in-out 10s;
+}
+
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+#file-1,#checkbox-1{
+  animation: fade-in ease-in-out 6s;
+}
+
+#file-2,#checkbox-2{
+  animation: fade-in ease-in-out 8s;
+}
+#file-3,#checkbox-3{
+  animation: fade-in ease-in-out 10s;
+}
+
+#tick-1{
+  animation:fade-in ease-in-out 12s;
+}
+#tick-2{
+  animation:fade-in ease-in-out 14s;
+}
+#tick-3{
+  animation:fade-in ease-in-out 16s;
+}
+
+.pro-img{
+  position: absolute;
+  margin-left: 600px;
+}
+
+.online-tool{
+  border: 5px solid white;
+  width: 500px;
+  height: 400px;
+  background-color: red;
+  margin-top: 20px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.project-title, .project-title1, .brief{
+  color: #fff;
+  text-align: center;
+}
+
+.project-title{
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.project-title1{
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+.github{
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left: 180px;
+  margin-top:28px;
+
+}
+
+.github1{
+  margin-top:3px;
+  margin-left: 5px;
+  width: 90px;
+  height: 90px;
+}
+
+.contact{
+  margin-top: 100px;
+  margin-left: 700px;
+  padding: 5px;
+}
+
+.resize{
+  height: 40px;
+  margin-left: 50px;
+}
+
+.resize1{
+  font-weight: 92px;
+  margin-left: 5px;
+}
+
+.windmill{
+  position: absolute;
+  margin-top: -90px;
+}
+
+#wing-1
+  {
+    animation: wheel 2s infinite linear;
+    transform-origin: 124px 126px;
+    transform-box: fill-box;
+
+  }
+  
+  @keyframes wheel{
+    from{
+      transform: rotateZ(0deg);
+    }
+    to{
+      transform: rotateZ(360deg);
+    }
+}
+
+#wing-2
+{
+  animation: wheel 2s infinite linear;
+  transform-origin: 83px 86px;
+  transform-box: fill-box;
+
+}
+
+#wing-3
+{
+  animation: wheel 2s infinite linear;
+  transform-origin: 83px 86px;
+  transform-box: fill-box;
+
+}
